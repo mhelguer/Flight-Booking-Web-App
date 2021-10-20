@@ -1,4 +1,4 @@
-#About
+# About
 There is a "make_airline_sql.sql" file included that you will need to
 run in the schema to clear out the tables.
 

@@ -11,3 +11,6 @@ you have pip installed(if you downloaded a recent version of python then pip sho
 Then in the terminal type "pip install flask psycopg2 flask_sqlalchemy" to retrieve those modules
 needed to be able to run the code. Next you type in "python app.py" in the terminal and after it runs 
 it will give you the address that the program is running off of. For instance it's more than likely going to be http://127.0.0.1:5000
+
+## Video Demo
+https://youtu.be/Js153gM_120

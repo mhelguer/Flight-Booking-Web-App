@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+    h1 {text-align: center;}
+
+ </style>    
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>  
+
+</head>
+
+<body>
+    <p alight="center">
+    <h1>Ordonez Airlines</h1>
+    </p>
+    <form method="post" action="/postU">
+        
+        <p align="left">
+            View all customers so far
+            <br></br>
+            <a href=/customer/all >
+                <input type="submit" name="showAll" value="Show All Customers">
+            </a>
+        </p>
+        <br></br>
+        <br></br>
+        See all available flights
+        <br></br>
+        <p align="left">
+            <a href=/flights >
+                <input type="submit" name="flights" value="Show All Flights">
+            </a>
+        </p>
+        <br></br>
+        <br></br>
+        Search for a specific destination airport
+        <br></br>
+
+        <label>Destination:</label>
+        <input type="text" name="destination">
+        <input type="submit" name="search" value="Submit">
+    </form>
+</body>
+</html>
